@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#D9D9D9"
+    app:cardCornerRadius="16dp"
+    android:elevation="2dp"
+    android:layout_marginTop="8dp"
+    android:layout_height="75dp">
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvStaffName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyễn Văn A"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvStaffName"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Đăng nhập vào hệ thống"
+            android:textColor="@color/red"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvTimeLogin"
+            android:layout_below="@+id/tvStaffName"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyễn Văn A"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
